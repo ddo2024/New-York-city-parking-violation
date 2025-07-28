@@ -1,0 +1,16 @@
+nyc_parking_violations:
+  outputs:
+    dev:
+      type: duckdb
+      path: '/Users/duydo/Desktop/DE/data/nyc_parking_violations.db'  # Path to your DuckDB database file
+    prod:
+      type: duckdb
+     # note that path is slightly different as GitHub actions
+     # start in the root directory and not in the
+     # nyc_parking_violations directory
+      path: '/Users/duydo/Desktop/DE/data/prod_nyc_parking_violations.db'  
+
+      threads: 1  # Number of threads for parallel execution
+  target: dev
+
+
