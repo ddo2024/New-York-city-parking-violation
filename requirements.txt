@@ -1,5 +1,8 @@
 requests>=2.28
-dbt-core==1.6.1(pip install dbt-core==1.6.1)
-dbt-duckdb==1.6.0(pip install dbt-duckdb==1.6.0)
-duckdb==0.9.0(pip install duckdb==0.9.0) or (python3 -m pip install --upgrade pip setuptools wheel)
-                                            (pip install --prefer-binary duckdb                   )
+dbt-core==1.6.1
+dbt-duckdb==1.6.0
+duckdb==0.9.0
+# (pip install dbt-core==1.6.1)
+# (pip install dbt-duckdb==1.6.0)
+# (pip install duckdb==0.9.0) or (python3 -m pip install --upgrade pip setuptools wheel)
+#                                            (pip install --prefer-binary duckdb                   )
